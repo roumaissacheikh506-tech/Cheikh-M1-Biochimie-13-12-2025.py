@@ -68,7 +68,7 @@ print ("Écart type de pourcentage GC:",écarttype_gc)
 print ("Écart type de longueur :",écarttype_long)
 print (df,"\n\n")
 
-#7) Sauvegarde et chargement des données avec pandas 
+# 7) Sauvegarde et chargement des données avec pandas 
 #Sauvegarder le DataFrame dans un fichier csv 
 df.to_csv("tableau _sésuence.csv",index=False)
 
