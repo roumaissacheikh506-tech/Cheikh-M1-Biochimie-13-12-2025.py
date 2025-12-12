@@ -51,16 +51,13 @@ print(df,"n/n")
 
 
 # 5) Ajouter catégorie GC
-
 print("*********** CATEGORISATION DU GC ***********")
-
 def categorie_gc(gc):
     if gc > 55:
         return "Riche"
     elif 45 <= gc <= 55:
         return "Moyen"
-    else:
-        return "Faible"
+    else:        return "Faible"
 
 df["Catégorie_GC"] = df["Pourcentage_GC"].apply(categorie_gc)
 print(df)
@@ -80,12 +77,10 @@ print("Écart-type de %GC :",std_gc)
 print ("Écart-type de la longueur:",std_long)
 print ("\n")
 
-
 # 8) Sauvegarder le DataFrame dans un fichier CSV 
 print ("*************  SAUVEGARDE DU FICHIER CSV *************")
  Sauvegarder le DataFrame dans un fichier csv
 nom_fichier ="CheikhRoumaissa_M1 Biochimie" df.to_csv("CheikhRoumaissa_M1 Biochimie.csv",index=False)
-
 Print(f"Le tableau final à été sauvegardé dans le fichier :{CheikhRoumaissa_M1 Biochimie"}")
 Print("\n\n") 
 
