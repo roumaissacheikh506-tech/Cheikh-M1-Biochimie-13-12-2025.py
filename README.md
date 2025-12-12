@@ -1,3 +1,4 @@
+
 #Cheikh Roumaissa
 #Master 01 Biochimie.... 13/12/2025
 #Membres de projet:-Cheikh Roumaissa 
@@ -67,3 +68,10 @@ print("\n")
 df["nombre de G"]=df["sequence"].str.count("G")
 print (("====6) Nombre de G ajoutés=====")
 print|df;"\n"|
+
+
+# 7)Calcule écart-type
+std-gc=
+df["Pourcentageurcentage-GC"] std() round(3)
+std-long=
+df["Longueur "] std() round(3)
