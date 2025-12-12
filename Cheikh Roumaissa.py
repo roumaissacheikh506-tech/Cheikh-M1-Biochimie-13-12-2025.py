@@ -28,16 +28,16 @@ print(df,"\n\n")
 print("****************opération****************") 
 
 
-# 1) sélectionner de la colonne "Longeur"
+# 1) sélectionner de la colonne "Longueur"
 Longueur=df["Longueur"]
-print(longeur,"\n\n")
+print(longueur,"\n\n")
 
 
 # 2) Filter les séquences dont la longueur est supérieure à 10
-print("****************Filtrage dont la longeur****************")
+print("****************Filtrage dont la longueur****************")
 #filtre les séquences dont la longueur supérieure à 10
-filter-df=df[df["longueur"]>10]
-print (filtered_df,"\n\n")
+filtered_df = df[df["Longueur"]>10]
+print(filtered_df)
 
 
 # 3) Calcule la moyenne du pourcentage de GC
