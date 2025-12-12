@@ -46,3 +46,20 @@ print(df"pourcentage moyenne GC:{average_GC:.3F}%")
 print(df,"n/n")
 
 
+# 5) Ajouter catégorie GC
+
+print("============== CATEGORISATION DU GC ==============")
+
+def categorie_gc(gc):
+    if gc > 55:
+        return "Riche"
+    elif 45 <= gc <= 55:
+        return "Moyen"
+    else:
+        return "Faible"
+
+df["Catégorie_GC"] = df["Pourcentage_GC"].apply(categorie_gc)
+print(df)
+print("\n")
+
+
