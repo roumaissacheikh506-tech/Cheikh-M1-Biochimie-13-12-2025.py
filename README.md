@@ -27,7 +27,10 @@ print(df," \n\n")
 #Opération sur les tableau: 
 print("****************operation****************") 
 
-
+# 2) Afficher et sélectionner uniquement la colonne Longeur 
+print("Colonne Longeur:")
+print(df["Longeur"])
+print(df,"\n\n")
 
 
 
