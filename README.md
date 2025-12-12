@@ -1,4 +1,4 @@
-
+⁹
 #Cheikh Roumaissa
 #Master 01 Biochimie.... 13/12/2025
 #Membres de projet:-Cheikh Roumaissa 
@@ -82,3 +82,9 @@ print ("Écart-type de la longueur:",std_long)
 print ("\n")
 
 print("============== SAUVEGARDE DU FICHIER CSV ==============")
+
+
+# 8) Sauvegarder le DataFrame dans un fichier CSV 
+print ("************* Sauvegarde et chargement des données avec pandas *************")
+# Sauvegarder le DataFrame dans un fichier csv
+nom_fichier ="CheikhRoumaissa_M1 Biochimie" df.to_csv("CheikhRoumaissa_M1 Biochimie.csv",index=False)
