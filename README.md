@@ -41,6 +41,7 @@ print("****************Filtrage avec longeur****************")
 filter df=df[df["longueur"]>10]
 print (filtered_df,"n/n")
 
+
 # 4) Calcule la moyenne du pourcentage de GC
 print ("*************calcule la moyenne du pourcentage de GC*************")
 # calculer la moyenne du pourcentage de GC avec 3 chiffres après la virgule 
