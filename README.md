@@ -23,7 +23,7 @@ print("****************creation et affichage***************")
 
 #Affichage de tableau
 print("Tableau des séquences ADN: ") 
-print(df," \n\n") 
+print(df,"\n") 
 
 #Opération sur les tableau: 
 print("****************operation****************") 
@@ -32,7 +32,7 @@ print("****************operation****************")
 # 2) Afficher et sélectionner uniquement la colonne Longeur 
 print("Colonne Longeur:")
 print(df["Longeur"])
-print(df,"\n\n")
+print(df,"n\n")
 
 
 # 3) Filter les séquences avec la longueur est supérieure à 10
@@ -66,12 +66,10 @@ df["Catégorie_GC"] = df["Pourcentage_GC"].apply(categorie_gc)
 print(df)
 print("\n")
 
-
 # 6)ajouter une colonne comptant les G 
 df["nombre de G"]=df["sequence"].str.count("G")
 print (("====6) Nombre de G ajoutés=====")
-print|df;"\n"|
-
+print(df;"\n")
 
 # 7)Calcule écart-type
 std-gc=
