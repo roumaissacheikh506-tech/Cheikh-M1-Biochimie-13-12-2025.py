@@ -75,3 +75,6 @@ std-gc=
 df["Pourcentageurcentage-GC"] std() round(3)
 std-long=
 df["Longueur "] std() round(3)
+print("Écart-type de %GC :",std_gc)
+print ("Écart-type de la longueur:",std_long)
+print ("\n")
