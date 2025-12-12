@@ -89,6 +89,6 @@ print ("************* Sauvegarde et chargement des données avec pandas ********
 # Sauvegarder le DataFrame dans un fichier csv
 nom_fichier ="CheikhRoumaissa_M1 Biochimie" df.to_csv("CheikhRoumaissa_M1 Biochimie.csv",index=False)
 
-Print(f"Le tableau final à été sauvegardé dans le fichier :{nom_fichier}")
+Print(f"Le tableau final à été sauvegardé dans le fichier :{CheikhRoumaissa_M1 Biochimie"}")
 Print("\n\n") 
 
