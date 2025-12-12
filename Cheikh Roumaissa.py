@@ -54,7 +54,7 @@ df["Catégorie_GC"] = df["Pourcentage_GC"].apply(lambda x:"Riche"if x>55 else "M
 print(df,"\n\n")
 
 # 5)Ajouter une colonne comptant les 'G' 
-df["Nombre de G"]=df["Séquence"].str.count("G")
+df["Nombre_G"] = df["Séquence"].str.count("G")
 print ("===== Nombre de G ajoutés =====")
 print(df,"\n\n")
 
