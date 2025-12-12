@@ -63,11 +63,10 @@ print(df,"\n\n")
 # 6)Calculer l'écart-type de pourcentage GC et de longueur écarttype_gc=df["pourcentage GC"].
 std()
 écarttype-long=df["Longueur"].std()
-std-long=
-df["Longueur "] std() round(3)
-print("Écart-type de %GC :",std_gc)
-print ("Écart-type de la longueur:",std_long)
-print ("\n")
+print (*****Écart type *****")
+print ("Écart type de pourcentage GC:",écarttype_gc)
+print ("Écart type de longueur :",écarttype_long)
+print (df,"\n\n")
 
 # 8) Sauvegarder le DataFrame dans un fichier CSV 
 print ("*************  SAUVEGARDE DU FICHIER CSV *************")
