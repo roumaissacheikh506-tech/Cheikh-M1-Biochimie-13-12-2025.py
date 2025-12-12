@@ -32,5 +32,7 @@ print("Colonne Longeur:")
 print(df["Longeur"])
 print(df,"\n\n")
 
+# 3) Filter les séquences dont la longueur est supérieure à 10
+print("****************Filtrage avec longeur****************")
 
 
