@@ -7,7 +7,7 @@
 #                  -Dahmani Fatima Zohra
 #                  -Mohammedi Sihem 
 
-import pendas as pd
+import pandas as pd
 
 # Données: Séquences ADN, Longueur, Pourcentage de GG
 data={
