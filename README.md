@@ -52,7 +52,7 @@ print(df,"n/n")
 
 # 5) Ajouter catégorie GC
 
-print("============== CATEGORISATION DU GC ==============")
+print("*********** CATEGORISATION DU GC ***********")
 
 def categorie_gc(gc):
     if gc > 55:
@@ -80,12 +80,10 @@ print("Écart-type de %GC :",std_gc)
 print ("Écart-type de la longueur:",std_long)
 print ("\n")
 
-print("============== SAUVEGARDE DU FICHIER CSV ==============")
-
 
 # 8) Sauvegarder le DataFrame dans un fichier CSV 
-print ("************* Sauvegarde et chargement des données avec pandas *************")
-# Sauvegarder le DataFrame dans un fichier csv
+print ("*************  SAUVEGARDE DU FICHIER CSV *************")
+ Sauvegarder le DataFrame dans un fichier csv
 nom_fichier ="CheikhRoumaissa_M1 Biochimie" df.to_csv("CheikhRoumaissa_M1 Biochimie.csv",index=False)
 
 Print(f"Le tableau final à été sauvegardé dans le fichier :{CheikhRoumaissa_M1 Biochimie"}")
