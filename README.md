@@ -34,7 +34,7 @@ print(df,"\n\n")
 
 # 3) Filter les séquences avec la longueur est supérieure à 10
 print("****************Filtrage avec longeur****************")
-#filter les séquences avec la longueur supérieur à 10
+#filtre les séquences avec la longueur supérieure à 10
 filter df=df[df["longueur"]>10]
 print (filtered_df,"n/n")
 
