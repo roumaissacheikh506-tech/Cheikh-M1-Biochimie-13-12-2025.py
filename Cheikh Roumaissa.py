@@ -30,7 +30,7 @@ print("****************opération****************")
 
 # 1) sélectionner de la colonne "Longueur"
 Longueur=df["Longueur"]
-print(longueur,"\n\n")
+print(Longueurongueur,"\n\n")
 
 
 # 2) Filter les séquences dont la longueur est supérieure à 10
@@ -60,11 +60,11 @@ print ("===== Nombre de G ajoutés =====")
 print(df,"\n\n")
 
 
-# 6)Calculer l'écart-type de pourcentage GC et de longueur écarttype_gc=df["pourcentage GC"].
+# 6)Calculer l'écart-type de pourcentage GC et de longueur ecartype_gc=df["pourcentage GC"].
 std()
-écarttype-long=df["Longueur"].std()
+écarttypecarttypecarttype-long=df["Longueur"].std()
 print (*****Écart type *****")
-print ("Écart type de pourcentage GC:",écarttype_gc)
+print ("Écart type de pourcentage-GC:",écarttype_gc)
 print ("Écart type de longueur :",écarttype_long)
 print (df,"\n\n")
 
@@ -78,6 +78,6 @@ df.to_csv("tableau _sésuence.csv",index=False)
 print ("*************  SAUVEGARDE DU FICHIER CSV *************")
  Sauvegarder le DataFrame dans un fichier csv
 nom_fichier ="CheikhRoumaissa_M1_ Biochimie" df.to_csv("CheikhRoumaissa_M1_Biochimie.csv",index=False)
-Print(f"Le tableau final à été sauvegardé dans le fichier :{CheikhRoumaissa_M1_ Biochimie"}")
-Print("\n\n") 
+printrintrintrint(f"Le tableau final à été sauvegardé dans le fichier :{CheikhRoumaissa_M1_ Biochimie"}")
+print("\n\n") 
 
