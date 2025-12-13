@@ -11,8 +11,8 @@ import pandas as pd
 
 # Données: Séquences ADN, Longueur, Pourcentage de GG
 data={
-   "Séquence":["ATGCGTACGTA","GCTAGCTAGGCC", "ATGCGCGTAAGT","TACGATCGTA", "ATGAAAGGCTT","CGTACGTAGC", "TTAACCGGAT"], 
-   "Longueur":[ 12,12,12,10,11,10,10],
+   "Séquence":["ATGCGTACGTA","GCTAGCTAGGCC","ATGCGCGTAAGT","TACGATCGTA","ATGAAAGGCTT","CGTACGTAGC","TTAACCGGAT"], 
+   "Longueur":[12,12,12,10,11,10,10],
    "Pourcentage_GC":[50,66.67,58.33,40,45.45,60,50]
 } 
 
@@ -44,13 +44,13 @@ print(filtered_df)
 print ("*************calcule de la moyenne *************")
 # calculer la moyenne du pourcentage de GC 
 average_GC = df["Pourcentage_GC"].mean()
-print(f"Pourcentage moyen de GC : {average_GC:.3f}%")
+print(f"Pourcentage moyen de GC : {average_GC:.3}%")
 
 
 # 4) Ajouter une nouvelle colonne avec des calculs
 print("***********Ajoute d'une nouvelle colonne***********")
 # Ajouter une nouvelle colonne"catégorie GC"
-df["Catégorie_GC"] = df["Pourcentage_GC"].apply(lambda x:"Riche"if x>55 else "Moyen"if 45<x<55 else "Faible")
+df["Catégorie_GC"] = df["Pourcentage_apply lambda x:"Riche"if x>55 else "Moyen"if 45<x<55 else "Faible")
 print(df,"\n\n")
 
 # 5)Ajouter une colonne comptant les 'G' 
