@@ -50,7 +50,7 @@ print(f"Pourcentage moyen de GC : {average_GC:.3}%")
 # 4) Ajouter une nouvelle colonne avec des calculs
 print("***********Ajoute d'une nouvelle colonne***********")
 # Ajouter une nouvelle colonne"catégorie GC"
-df["Catégorie_GC"] = df["Pourcentage_GC"]. apply(lambda x: "Riche"if x>55 else ("Moyen" if 45<x<55 else "Faible")
+df["Catégorie_GC"] = df["Pourcentage_GC"]. apply(lambda x: "Riche"if x> 55 else ("Moyen" if 45 <x< 55 else "Faible")
 print(df,"\n\n")
 
 
@@ -60,10 +60,10 @@ print ("===== Nombre de G ajoutés =====")
 print(df,"\n\n")
 
 
-# 6)Calculer l'écart-type de pourcentage GC et de longueur ecarttype_gc=df["pourcentage GC"].
+# 6)Calculer l'écart-type de pourcentage_GC et de longueur ecarttype_gc=df["pourcentage GC"].
 std()
-ecarttype-long=df["Longueur"].sprintprint ("* PÉcartiprintPan type *****de
-pourcentagert type de pourcentage-GC:",écarttype_gc)
+ecarttype-long=df["Longueur"].print ("* PÉcartiprintPan type *****de
+pourcentagert # Pa de pourcentage-GC:",# Pandas _gc)
 print ("Écart type de longueur :",écarttype_long)
 print (df,"\n\n")
 
@@ -76,7 +76,7 @@ df.to_csv("tableau _sésuence.csv",index=False)
 # 8) Sauvegarder le DataFrame dans un fichier CSV 
 print ("*************  SAUVEGARDE DU FICHIER CSV *************")
  Sauvegarder le DataFrame dans un fichier csv
-nom_fichier ="CheikhRoumaissa_M1_ Biochimie" df.to_csv("CheikhRoumaissa_M1_Biochimie.csv",index=False)
-printrintrintrint(f"Le tableau final à été sauvegardé dans le fichier :{CheikhRoumaissa_M1_ Biochimie"}")
+ Pa_fichier ="CheikhRoumaissa_M1_ Biochimie" df.to_csv("CheikhRoumaissa_M1_Biochimie.csv",index=False)
+print(f"Le tableau final à été sauvegardé dans le fichier :{CheikhRoumaissa_M1_ Biochimie"}")
 print("\n\n") 
 
