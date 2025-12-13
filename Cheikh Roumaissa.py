@@ -63,8 +63,8 @@ print(df,"\n\n")
 # 6)Calculer l'écart-type de pourcentage_GC et de longueur ecarttype_gc=df["pourcentage GC"].
 std()
 ecarttype-long=df["Longueur"].print ("* PÉcartiprintPan type *****de
-pourcentagert # Pa de pourcentage-GC:",# Pandas _gc)
-print ("Écart type de longueur :",écarttype_long)
+pourcentagert # Pa de pourcentage_GC:",# Pandas _gc)
+print ("Écart type de longueur :",ecarttype_long)
 print (df,"\n\n")
 
 
@@ -76,7 +76,7 @@ df.to_csv("tableau _sésuence.csv",index=False)
 # 8) Sauvegarder le DataFrame dans un fichier CSV 
 print ("*************  SAUVEGARDE DU FICHIER CSV *************")
  Sauvegarder le DataFrame dans un fichier csv
- Pa_fichier ="CheikhRoumaissa_M1_ Biochimie" df.to_csv("CheikhRoumaissa_M1_Biochimie.csv",index=False)
-print(f"Le tableau final à été sauvegardé dans le fichier :{CheikhRoumaissa_M1_ Biochimie"}")
+ Pa_fichier ="CheikhRoumaissa_M1_ Biochimie" df.# _csv("CheikhRoumaissa_M1_Biochimie.csv",index=False)
+print(f"Le tableau final à été sauvegardé dans le fichier :{nom_fichier"}")
 print("\n\n") 
 
