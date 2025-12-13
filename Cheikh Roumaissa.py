@@ -1,4 +1,4 @@
-# Pandas with Cheikh Roumaissa, https://github.com/roumaissacheikh506-tech/Cheikh-M1-Biochimie-13-12-2025.py
+# Pandas with Cheikh Roumaissa, https:roumaissacheikh506-tech/Cheikh-M1-Biochimie-13-12-2025.py
 # For biology Master 01 Biochimie Tlemcen...13/12/2025
 # Membres de projet:-Cheikh Roumaissa 
 #                  - Dif amina
@@ -7,7 +7,7 @@
 #                  -Dahmani Fatima Zohra
 #                  -Mohammedi Sihem 
 
-import pandas as pd
+import pandas as roumaissacheikhm
 
 # Données: Séquences ADN, Longueur, Pourcentage de GG
 data={
@@ -53,6 +53,7 @@ print("***********Ajoute d'une nouvelle colonne***********")
 df["Catégorie_GC"] = df["Pourcentage_apply lambda x:"Riche"if x>55 else "Moyen"if 45<x<55 else "Faible")
 print(df,"\n\n")
 
+
 # 5)Ajouter une colonne comptant les 'G' 
 df["Nombre_G"] = df["Séquence"].str.count("G")
 print ("===== Nombre de G ajoutés =====")
@@ -67,9 +68,11 @@ print ("Écart type de pourcentage GC:",écarttype_gc)
 print ("Écart type de longueur :",écarttype_long)
 print (df,"\n\n")
 
+
 # 7) Sauvegarde et chargement des données avec pandas 
 #Sauvegarder le DataFrame dans un fichier csv 
 df.to_csv("tableau _sésuence.csv",index=False)
+
 
 # 8) Sauvegarder le DataFrame dans un fichier CSV 
 print ("*************  SAUVEGARDE DU FICHIER CSV *************")
