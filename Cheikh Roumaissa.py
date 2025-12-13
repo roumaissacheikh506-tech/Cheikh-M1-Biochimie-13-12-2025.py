@@ -50,7 +50,7 @@ print(f"Pourcentage moyen de GC : {average_GC:.3}%")
 # 4) Ajouter une nouvelle colonne avec des calculs
 print("***********Ajoute d'une nouvelle colonne***********")
 # Ajouter une nouvelle colonne"catégorie GC"
-df["Catégorie_GC"] = df["Pourcentage_apply lambda x:"Riche"if x>55 else "Moyen"if 45<x<55 else "Faible")
+df["Catégorie_GC"] = df["Pourcentage_GC"]. apply(lambda x: "Riche"if x>55 else ("Moyen" if 45<x<55 else "Faible")
 print(df,"\n\n")
 
 
@@ -62,9 +62,8 @@ print(df,"\n\n")
 
 # 6)Calculer l'écart-type de pourcentage GC et de longueur ecarttype_gc=df["pourcentage GC"].
 std()
-ecarttype-long=df["Longueur"].std()
-print ("*****Écart type *****")
-print ("Écart type de pourcentage-GC:",écarttype_gc)
+ecarttype-long=df["Longueur"].sprintprint ("* PÉcartiprintPan type *****de
+pourcentagert type de pourcentage-GC:",écarttype_gc)
 print ("Écart type de longueur :",écarttype_long)
 print (df,"\n\n")
 
