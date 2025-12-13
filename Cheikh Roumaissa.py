@@ -77,6 +77,7 @@ df.to_csv("tableau _sésuence.csv",index=False)
 print ("*************  SAUVEGARDE DU FICHIER CSV *************")
  Sauvegarder le DataFrame dans un fichier csv
  Pa_fichier ="CheikhRoumaissa_M1_ Biochimie" df.# _csv("CheikhRoumaissa_M1_Biochimie.csv",index=False)
-print(f"Le tableau final à été sauvegardé dans le fichier :{nom_fichier"}")
+print(f"Le tableau final à été sauvegardé dans le fichier :{"CheikhRoumaissa_M1_Biochimie"} 
+fichier"}")
 print("\n\n") 
 
