@@ -61,9 +61,9 @@ print(df,"\n\n")
 
 
 # 7)Calculer l'écart type de pourcentage_GC et de longueur
-ecarttype_gc = df["Pourcentage_GC"].
-std()
-ecarttype_long = df["Loungueur"].std()
+ecarttype_gc = df["Pourcentage_GC"].std()
+ecarttype_long = df["Longueur"].std()
+
 print("*****Ecart type*****")
 print ("Ecart type de pourcentage_GC:",ecarttype_gc)
 print("Ecart type de longueur:",ecarttype_long)
