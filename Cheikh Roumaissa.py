@@ -29,8 +29,8 @@ print("****************opération****************")
 
 
 # 2) sélectionner et afficher  la Longueur ["Longueur"] 
-Longeur=df["Longeur"]
-print(Longeur,"\n\n")
+Longeur=df["Longueur"]
+print(Longueur,"\n\n")
 
 
 # 3) Filter les séquences dont la longueur est supérieure à 10
@@ -51,7 +51,7 @@ print(df,"\n\n")
 # 5)Ajouter une nouvelle colonne avec des calculs
 print("***********Ajoute d'une nouvelle colonne***********")
 # Ajouter une nouvelle colonne"catégorie GC"
-df["Catégorie_GC"] = df["Pourcentage_GC"]. apply(lambda x: "Richex If x> 55 else ("Moyen" if 45 <x< 55 else "Faible")
+df["Catégorie_GC"] = df["Pourcentage_GC"]. apply(lambda x: "Richex If x> 55 else ("Moyen" if 45 <x< 55 else "Faible")) 
 print(df,"\n\n")
 
 
