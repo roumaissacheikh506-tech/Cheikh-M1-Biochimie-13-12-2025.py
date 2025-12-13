@@ -28,14 +28,14 @@ print(df,"\n\n")
 print("****************opération****************") 
 
 
-# 1) sélectionner de la colonne "Longueur"
-Longueur=df["Longueur"]
-print(Longueur,"\n\n")
+# 1) sélectionner et afficher  la colonne "Longueur"
+Longeur=df["Longeur"]
+print(Longeur,"\n\n")
 
 
-# 2) Filter les séquences avec la longueur est supérieure à 10
+# 2) Filter les séquences dont la longueur est supérieure à 10
 print("****************Filtrage dont la longueur****************")
-#filtre les séquences avec la longueur supérieure à 10
+#filtre les séquences dont la longueur est supérieure à 10
 filtered_df =df[df["Longueur"]>10]
 print(filtred_df)
 print(df,"/n/n")
