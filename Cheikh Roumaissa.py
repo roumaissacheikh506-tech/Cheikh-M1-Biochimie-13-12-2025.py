@@ -1,4 +1,4 @@
-xPendas with Cheikh Roumaissa,roumaissacheikh506-tech/Cheikh-M1-Biochimie-13-12-2025.py
+#Pendas with Cheikh Roumaissa,roumaissacheikh506-tech/Cheikh-M1-Biochimie-13-12-2025.py
 # For biology Master 01 Biochimie Tlemcen...13/12/2025
 # Membres de projet:-Cheikh Roumaissa 
 #                  - Dif amina
@@ -61,14 +61,16 @@ print ("===== Nombre de G ajoutés =====")
 print(df,"\n\n")
 
 
-# 7)Calculer l'écart-type de pourcentage_GC et de longueur ecarttype_gc=df["pourcentage GC"].
+# 7)Calculer l'écart type de pourcentage GC et de longueur écarttype_gc=df["pourcentage GC"].
 std()
-ecarttype-long=df["Longueur"].print ("* PÉcartiprintPan type *****de
-pourcentagert # Pa de pourcentage_GC:",# Pandas _gc)
-print ("Écart type de longueur :",ecarttype_long)
+écarttype-long=df["Longueur"].std()
+print("*****Écart type*****")
+print ("Écart type de pourcentage GC:",écarttype_gc)
+print("Écart type de longueur:",écarttype_long)
 print (df,"\n\n")
 
 
 # 8) Sauvegarde et chargement des données avec pandas 
-#Sauvegarder le DataFrame dans un fichier csv df.to_csv("tableau _sésuence.csv",index =False)
+#Sauvegarder le DataFrame dans un fichier csv 
+df.to_csv("tableau _séquence.csv",index =False)
 
