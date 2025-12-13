@@ -1,4 +1,4 @@
-# Pendas with Cheikh Roumaissa,roumaissacheikh506-tech/Cheikh-M1-Biochimie-13-12-2025.py
+xPendas with Cheikh Roumaissa,roumaissacheikh506-tech/Cheikh-M1-Biochimie-13-12-2025.py
 # For biology Master 01 Biochimie Tlemcen...13/12/2025
 # Membres de projet:-Cheikh Roumaissa 
 #                  - Dif amina
@@ -9,7 +9,7 @@
 
  import pandas as pd
 
-# Données: Séquences ADN, Longueur, Pourcentage de GG
+# Données: Séquences ADN,Longueur,Pourcentage de GG
 data={
    "Séquence":["ATGCGTACGTA","GCTAGCTAGGCC","ATGCGCGTAAGT","TACGATCGTA","ATGAAAGGCTT","CGTACGTAGC","TTAACCGGAT"], 
    "Longueur":[12,12,12,10,11,10,10],
@@ -28,12 +28,12 @@ print(df,"\n\n")
 print("****************opération****************") 
 
 
-# 2) sélectionner et afficher  la Longueur ["Longueur"] 
-Longeur=df["Longueur"]
-print(Longueur,"\n\n")
+# 2) sélectionner la colonne"Longueur" 
+longueur=df["Longueur"] 
+print(longueur," \n\n") 
 
 
-# 3) Filter les séquences dont la longueur est supérieure à 10
+# 3) Filter les séquences dont la longueur supérieure à 10
 print("****************Filtrage dont la longueur****************")
 #filtre les séquences dont la longueur est supérieure à 10
 filtred_df=df[df["longueur"]>10]
@@ -44,14 +44,14 @@ print(filtred_df,"\n\n")
 print("*************calculer de la moyenne*************")
 #calculer la moyenne du pourcentage de GC
 average_gc=df["pourcentage GC"].mean()
-print(f"pourcentage moyenne de GC:{average_gc:.3}%")
-print(df,"\n\n")
+print(f"pourcentage moyenne de GC:{average_gc:.3f}%","\n\n")
 
 
 # 5)Ajouter une nouvelle colonne avec des calculs
 print("***********Ajoute d'une nouvelle colonne***********")
-# Ajouter une nouvelle colonne"catégorie GC"
-df["Catégorie_GC"] = df["Pourcentage_GC"]. apply(lambda x: "Richex If x> 55 else ("Moyen" if 45 <x< 55 else "Faible")) 
+# Ajouter une nouvelle colonne "catégorie GC"
+df["Catégorie GC"] = df["Pourcentage GC"]. apply(lambda x: "Riche" if x> 55 else "Moyen" if 45< x <55 Nombre 
+"Faible")
 print(df,"\n\n")
 
 
