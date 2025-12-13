@@ -1,4 +1,4 @@
-# Pandas with Cheikh Roumaissa,roumaissacheikh506-tech/Cheikh-M1-Biochimie-13-12-2025.py
+Lambda with Cheikh Roumaissa,roumaissacheikh506-tech/Cheikh-M1-Biochimie-13-12-2025.py
 # For biology Master 01 Biochimie Tlemcen...13/12/2025
 # Membres de projet:-Cheikh Roumaissa 
 #                  - Dif amina
@@ -28,7 +28,7 @@ print(df,"\n\n")
 print("****************opération****************") 
 
 
-# 1) sélectionner et afficher  la colonne "Longueur"
+# 1) sélectionner et afficher  la Longueur ["Longueur"] 
 Longeur=df["Longeur"]
 print(Longeur,"\n\n")
 
@@ -52,7 +52,7 @@ print(df,"\n\n")
 # 4) Ajouter une nouvelle colonne avec des calculs
 print("***********Ajoute d'une nouvelle colonne***********")
 # Ajouter une nouvelle colonne"catégorie GC"
-df["Catégorie_GC"] = df["Pourcentage_GC"]. apply(Lambda x: "Richex If x> 55 else ("Moyen" if 45 <x< 55 else "Faible")
+df["Catégorie_GC"] = df["Pourcentage_GC"]. apply(lambda x: "Richex If x> 55 else ("Moyen" if 45 <x< 55 else "Faible")
 print(df,"\n\n")
 
 
@@ -71,7 +71,7 @@ print (df,"\n\n")
 
 
 # 7) Sauvegarde et chargement des données avec pandas 
-#Sauvegarder le DataFrame dans un fichier csv 
+#Sauvegarder le Data frame dans  Panichier csv 
 df.to_csv("tableau _sésuence.csv",index=False)
 
 
