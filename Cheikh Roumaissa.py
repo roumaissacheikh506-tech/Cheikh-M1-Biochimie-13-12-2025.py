@@ -7,7 +7,7 @@
 #                  -Dahmani Fatima Zohra
 #                  -Mohammedi Sihem 
 
-import pandas as roumaissacheikhm
+import pandas as pd
 
 # Données: Séquences ADN, Longueur, Pourcentage de GG
 data={
@@ -77,7 +77,7 @@ df.to_csv("tableau _sésuence.csv",index=False)
 # 8) Sauvegarder le DataFrame dans un fichier CSV 
 print ("*************  SAUVEGARDE DU FICHIER CSV *************")
  Sauvegarder le DataFrame dans un fichier csv
-nom_fichier ="CheikhRoumaissa_M1 Biochimie" df.to_csv("CheikhRoumaissa_M1 Biochimie.csv",index=False)
-Print(f"Le tableau final à été sauvegardé dans le fichier :{CheikhRoumaissa_M1 Biochimie"}")
+nom_fichier ="CheikhRoumaissa_M1_ Biochimie" df.to_csv("CheikhRoumaissa_M1_Biochimie.csv",index=False)
+Print(f"Le tableau final à été sauvegardé dans le fichier :{CheikhRoumaissa_M1_ Biochimie"}")
 Print("\n\n") 
 
