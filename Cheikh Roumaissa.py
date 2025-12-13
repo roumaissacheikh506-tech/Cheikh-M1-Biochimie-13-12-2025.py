@@ -70,15 +70,5 @@ print (df,"\n\n")
 
 
 # 7) Sauvegarde et chargement des données avec pandas 
-#Sauvegarder le Data frame dans  Panichier csv 
-df.to_csv("tableau _sésuence.csv",index=False)
-
-
-# 8) Sauvegarder le DataFrame dans un fichier CSV 
-print ("*************  SAUVEGARDE DU FICHIER CSV *************")
- Sauvegarder le DataFrame dans un fichier csv
- Pa_fichier ="CheikhRoumaissa_M1_ Biochimie" df.# _csv("CheikhRoumaissa_M1_Biochimie.csv",index=False)
-print(df"Le tableau final à été sauvegardé dans le fichier :{"CheikhRoumaissa_M1_Biochimie"} 
-fichier"}")
-print("\n\n") 
+#Sauvegarder le DataFrame dans un fichier csv df.to_csv("tableau _sésuence.csv",index =False)
 
