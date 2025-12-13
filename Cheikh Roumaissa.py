@@ -52,7 +52,7 @@ print(df,"\n\n")
 # 4) Ajouter une nouvelle colonne avec des calculs
 print("***********Ajoute d'une nouvelle colonne***********")
 # Ajouter une nouvelle colonne"catégorie GC"
-df["Catégorie_GC"] = df["Pourcentage_GC"]. apply(lambda x: "Riche"if x> 55 else ("Moyen" if 45 <x< 55 else "Faible")
+df["Catégorie_GC"] = df["Pourcentage_GC"]. apply(Lambda x: "Richex If x> 55 else ("Moyen" if 45 <x< 55 else "Faible")
 print(df,"\n\n")
 
 
