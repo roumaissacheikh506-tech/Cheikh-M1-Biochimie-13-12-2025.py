@@ -43,7 +43,7 @@ print(filtred_df,"\n\n")
 # 4) calculer la moyenne du pourcentage de GC
 print("*************calculer de la moyenne*************")
 #calculer la moyenne du pourcentage de GC
-average_gc=df["pourcentage_GC"].mean()
+average_gc = df["Pourcentage_GC"].mean()
 print(f"pourcentage moyenne de GC:{average_gc:.3f}%","\n\n")
 
 
@@ -60,16 +60,17 @@ print ("===== Nombre de G ajoutés =====")
 print(df,"\n\n")
 
 
-# 7)Calculer l'écart type de pourcentage_GC et de longueur ecarttype_gc = df["pourcentage_GC"].
+# 7)Calculer l'écart type de pourcentage_GC et de longueur
+ecarttype_gc = df["Pourcentage_GC"].
 std()
-ecarttype-long=df["Loungueur"].std()
+ecarttype_long = df["Loungueur"].std()
 print("*****Ecart type*****")
-print ("Ecart type de pourcentage_GC:",écarttype_gc)
-print("Écart type de longueur:",écarttype_long)
+print ("Ecart type de pourcentage_GC:",ecarttype_gc)
+print("Ecart type de longueur:",ecarttype_long)
 print (df,"\n\n")
 
 
 # 8) Sauvegarde et chargement des données avec pandas 
 #Sauvegarder le DataFrame dans un fichier csv 
-df.to_csv("tableau _sequence.csv",index =False)
+df.to_csv("tableau_sequence.csv",index =False)
 
