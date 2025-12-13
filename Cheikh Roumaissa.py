@@ -30,7 +30,7 @@ print("****************opération****************")
 
 # 1) sélectionner de la colonne "Longueur"
 Longueur=df["Longueur"]
-print(Longueurongueur,"\n\n")
+print(Longueur,"\n\n")
 
 
 # 2) Filter les séquences dont la longueur est supérieure à 10
@@ -60,10 +60,10 @@ print ("===== Nombre de G ajoutés =====")
 print(df,"\n\n")
 
 
-# 6)Calculer l'écart-type de pourcentage GC et de longueur ecartype_gc=df["pourcentage GC"].
+# 6)Calculer l'écart-type de pourcentage GC et de longueur ecarttype_gc=df["pourcentage GC"].
 std()
-écarttypecarttypecarttype-long=df["Longueur"].std()
-print (*****Écart type *****")
+ecarttype-long=df["Longueur"].std()
+print ("*****Écart type *****")
 print ("Écart type de pourcentage-GC:",écarttype_gc)
 print ("Écart type de longueur :",écarttype_long)
 print (df,"\n\n")
